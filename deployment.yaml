@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: addressvalidationverone
+spec:
+  selector:
+    matchLabels:
+      app: addressvalidationverone
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: addressvalidationverone
+    spec:
+      containers:
+      - name: addressvalidationcontainer
+        image: addressvalidationverone
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 8080
