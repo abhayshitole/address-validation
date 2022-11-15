@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.dataeconomy</groupId>
 	<artifactId>masterdatamanagement</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<name>masterdatamanagement</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -49,7 +49,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>address-validation-jar</finalName>
+		<finalName>${project.artifactId}</finalName>
 	</build>
 
 </project>
