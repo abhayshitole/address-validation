@@ -5,5 +5,5 @@ RUN curl -fsSLO https://get.docker.com/builds/Linux/x86_64/docker-17.04.0-ce.tgz
   && mv docker/docker /usr/local/bin \
   && rm -r docker docker-17.04.0-ce.tgz
 RUN mkdir -p /home/app
-COPY target/address-validation-jar.jar /home/app
-ENTRYPOINT ["java","-jar","/home/app/address-validation-jar.jar"]
+COPY target/masterdatamanagement.jar /home/app
+ENTRYPOINT ["java","-jar","/home/app/masterdatamanagement.jar"]
