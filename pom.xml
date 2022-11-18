@@ -49,7 +49,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>${project.artifactId}</finalName>
+		<finalName>masterdatamanagement</finalName>
 	</build>
 
 </project>
