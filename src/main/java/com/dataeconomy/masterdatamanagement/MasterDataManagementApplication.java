@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MasterdatamanagementApplication {
+public class MasterDataManagementApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MasterdatamanagementApplication.class, args);
+		SpringApplication.run(MasterDataManagementApplication.class, args);
 	}
 
 }
