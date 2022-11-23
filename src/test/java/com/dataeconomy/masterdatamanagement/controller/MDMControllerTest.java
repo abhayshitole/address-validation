@@ -33,6 +33,6 @@ public class MDMControllerTest {
         address.setAdministrativeArea("SA");
         address.setPostalCode("705112");
         ResponseEntity<String> response =  controller.validateAddress(address);
-        Assertions.assertEquals(HttpStatus.NOT_ACCEPTABLE,response.getStatusCode());
+        Assertions.assertEquals(HttpStatus.OK,response.getStatusCode());
     }
 }
